@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="pure-min.css"></link>
+<link rel="stylesheet" href="style.css"></link>
+
+</head>
+<body class="content">
+	<div class="hero">
+		<h1 class="pure-u-1-2" id="headline">Node.js Ar.Drone Web Controller</h1>
+		<h2 class="pure-u-3-4 l-centered">&lt;navigate via mouse or keyboard or both&gt;</h2>
+
+		<div class="pure-g">
+			<div class="pure-u-1">
+				<button id='front' class="pure-button">&uarr;</button>
+			</div>
+			<div class="pure-u-1">
+				<button id='left' class="pure-button">&larr;</button>
+				<button id='stop' class="pure-button">O</button>
+				<button id='right' class="pure-button">&rarr;</button>
+			</div>
+			<div class="pure-u-1">
+				<button id='back' class="pure-button">&darr;</button>
+			</div>
+		</div>
+		<p/>
+		<div class="pure-g">
+			<div class="pure-u-1">
+				<button id='takeoff' class="pure-button">takeoff</button>
+				<button id='land' class="pure-button">land</button>
+			</div>
+		</div>
+		<p></p>
+		<div class="pure-u-1" style="text-align:center">
+			<table class="pure-table center" width="75%">
+				<thead>
+					<tr>
+		      		<th width="33%">Rotation</th>
+		      		<th width="33%">Altitude</th>
+		      		<th width="33%">Velocity</th>
+		    	</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td id="rotation_data">???</td>
+						<td id="altitude_data">???</td>
+						<td id="velocity_data">???</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
+	<script src="jquery-1.9.1.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

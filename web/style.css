@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    color: #777;
+    padding:40px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+    color: #1f8dd6;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: bold;
+    font-weight: 100;
+    font-size: 180%;
+    margin: 0.02em 0 0.8em;
+    color: #666;
+}
+
+button {
+    padding:5px;
+    margin: 5px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom:50px;
+}
+
+p {
+    line-height: 1.6em;
+    text-align: center;
+}
+
+table.center {
+    margin-top:60px;
+    margin-left:auto;
+    margin-right:auto;
+}
